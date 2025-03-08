@@ -21,12 +21,22 @@ main:
     # notes: Oral Presentation
     image: ./assets/img/teaser_example.png
 
-  - title:  "mproved Distribution Matching for Dataset Condensation"
+  - title:  "Improved Distribution Matching for Dataset Condensation"
     authors: <strong>Ganlong Zhao</strong>, Guanbin Li, Yipeng Qin and Yizhou Yu
     conference_short: CVPR
     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2023.
     pdf: https://arxiv.org/pdf/2307.09742
     code: https://github.com/uitrbn/IDM
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/teaser_example_2.png
+    # notes: Poster
+
+  - title:  "Centrality and Consistency: Two-Stage Clean Samples Identification for Learning with Instance-Dependent Noisy Labels"
+    authors: <strong>Ganlong Zhao</strong>, Guanbin Li, Yipeng Qin, Feng Liu and Yizhou Yu
+    conference_short: ECCV
+    conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2022.
+    pdf: https://arxiv.org/pdf/2207.14476
+    code: https://github.com/uitrbn/TSCSI_IDN
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/teaser_example_2.png
     # notes: Poster
