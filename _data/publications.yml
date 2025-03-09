@@ -11,7 +11,7 @@ main:
     # notes: Poster
 
   - title: "Exploration and Exploitation of Unlabeled Data for Open-Set Semi-Supervised Learning"
-    authors: <strong>Ganlong Zhao</strong>, Guanbin Li, Yipeng Qin, Jinjin Zhang, Zhenhua Chai, Xiaolin Wei, Liang Lin and Yizhou Yu.
+    authors: <strong>Ganlong Zhao</strong>, Guanbin Li, Yipeng Qin, Jinjin Zhang, Zhenhua Chai, Xiaolin Wei, Liang Lin and Yizhou Yu
     conference_short: IJCV
     conference: International Journal of Computer Vision <strong>(IJCV)</strong>, 2024.
     pdf: https://arxiv.org/pdf/2306.17699.pdf
@@ -42,7 +42,7 @@ main:
     # notes: Poster
   
   - title:  "Collaborative Training Between Region Proposal Localization and Classification for Domain Adaptive Object Detection"
-    authors: <strong>Ganlong Zhao</strong>, Guanbin Li, Ruijia Xu and Liang Lin. 
+    authors: <strong>Ganlong Zhao</strong>, Guanbin Li, Ruijia Xu and Liang Lin
     conference_short: ECCV
     conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2020.
     pdf: https://arxiv.org/pdf/2009.08119
@@ -50,3 +50,23 @@ main:
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/teaser_example_2.png
     # notes: Poster
+
+  - title:  "Enhancing Out-of-Distribution Detection via Diversified Multi-prototype Contrastive Learning"
+    authors: Yulong Jia, Jiaming Li, <strong>Ganlong Zhao</strong>, Shuangyin Liu, Weijun Sun, Liang Lin and Guanbin Li
+    conference_short: PR
+    conference: Pattern Recognition <strong>(PR)</strong>, 2024.
+    pdf: https://www.sciencedirect.com/science/article/pii/S0031320324009658
+    # code: https://github.com/uitrbn/CST_DA_detection
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/teaser_example_2.png
+    # notes: Poster
+
+  - title:  "GraphVAE: Unveiling Dynamic Stock Relationships with Variational Autoencoder-based Factor Modeling"
+    authors: Yulong Jia, Guanxing Li, <strong>Ganlong Zhao</strong>, Xiangru Lin and Guanbin Li
+    conference_short: CIKM
+    conference: ACM International Conference on Information and Knowledge Management <strong>(CIKM)</strong>, 2024.
+    pdf: https://dl.acm.org/doi/10.1145/3627673.3679935
+    # code: https://github.com/uitrbn/CST_DA_detection
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/teaser_example_2.png
+    notes: Short Paper
