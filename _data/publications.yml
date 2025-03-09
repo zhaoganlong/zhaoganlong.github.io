@@ -7,7 +7,7 @@ main:
     pdf: https://arxiv.org/pdf/2403.17334.pdf
     code: https://github.com/uitrbn/OVER-NAV-IVLN
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+    image: ./assets/img/over_nav.png
     # notes: Poster
 
   - title: "Exploration and Exploitation of Unlabeled Data for Open-Set Semi-Supervised Learning"
