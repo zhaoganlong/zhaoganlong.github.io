@@ -38,7 +38,7 @@ main:
     pdf: https://arxiv.org/pdf/2207.14476
     code: https://github.com/uitrbn/TSCSI_IDN
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+    image: ./assets/img/cc.png
     # notes: Poster
   
   - title:  "Collaborative Training Between Region Proposal Localization and Classification for Domain Adaptive Object Detection"
@@ -48,7 +48,7 @@ main:
     pdf: https://arxiv.org/pdf/2009.08119
     code: https://github.com/uitrbn/CST_DA_detection
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/cc.png
+    image: ./assets/img/da_detection.png
     # notes: Poster
 
   - title:  "Enhancing Out-of-Distribution Detection via Diversified Multi-prototype Contrastive Learning"
