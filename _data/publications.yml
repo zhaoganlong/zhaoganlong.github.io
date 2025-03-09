@@ -19,7 +19,7 @@ main:
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     # notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/openssl.png
 
   - title:  "Improved Distribution Matching for Dataset Condensation"
     authors: <strong>Ganlong Zhao</strong>, Guanbin Li, Yipeng Qin and Yizhou Yu
@@ -28,7 +28,7 @@ main:
     pdf: https://arxiv.org/pdf/2307.09742
     code: https://github.com/uitrbn/IDM
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+    image: ./assets/img/idm.png
     # notes: Poster
 
   - title:  "Centrality and Consistency: Two-Stage Clean Samples Identification for Learning with Instance-Dependent Noisy Labels"
@@ -48,7 +48,7 @@ main:
     pdf: https://arxiv.org/pdf/2009.08119
     code: https://github.com/uitrbn/CST_DA_detection
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+    image: ./assets/img/cc.png
     # notes: Poster
 
   - title:  "Enhancing Out-of-Distribution Detection via Diversified Multi-prototype Contrastive Learning"
@@ -58,7 +58,7 @@ main:
     pdf: https://www.sciencedirect.com/science/article/pii/S0031320324009658
     # code: https://github.com/uitrbn/CST_DA_detection
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+    image: ./assets/img/ood.png
     # notes: Poster
 
   - title:  "GraphVAE: Unveiling Dynamic Stock Relationships with Variational Autoencoder-based Factor Modeling"
@@ -68,5 +68,5 @@ main:
     pdf: https://dl.acm.org/doi/10.1145/3627673.3679935
     # code: https://github.com/uitrbn/CST_DA_detection
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+    image: ./assets/img/graphvae.png
     notes: Short Paper
