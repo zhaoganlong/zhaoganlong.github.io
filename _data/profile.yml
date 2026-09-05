@@ -10,6 +10,7 @@ positions:
 email: "zhaogl@connect.hku.hk"
 cv_link: /assets/files/curriculum_vitae.pdf
 gscholar: 4l2zOz4AAAAJ
+github: zhaoganlong
 
 short_bio_text_justify: false
 short_bio: >-
@@ -53,4 +54,3 @@ academic_service:
       url: https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=6046
     - name: IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)
       url: https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=76
-
