@@ -1,0 +1,9 @@
+pages:
+  - name: Home
+    url: /
+  - name: Publications
+    url: /publications
+  - name: CV
+    url: /assets/files/curriculum_vitae.pdf
+    external: true
+

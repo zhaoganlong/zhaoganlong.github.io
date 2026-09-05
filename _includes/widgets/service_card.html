@@ -1,0 +1,24 @@
+<section class="content-card mt-3" aria-labelledby="academic-service-heading">
+    <h2 class="content-card-heading" id="academic-service-heading">
+        <i class="fas fa-clipboard-check" aria-hidden="true"></i> Academic Service
+    </h2>
+    <div class="content-card-body service-grid">
+        <div>
+            <h3>Conference Reviewer</h3>
+            <ul>
+                {% for item in site.data.profile.academic_service.conferences %}
+                <li><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div>
+            <h3>Journal Reviewer</h3>
+            <ul>
+                {% for item in site.data.profile.academic_service.journals %}
+                <li><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>
+
