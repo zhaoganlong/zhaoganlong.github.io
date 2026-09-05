@@ -1,7 +1,7 @@
 ---
 title: "Aerial Vision-and-Language Navigation with Grid-based View Selection and Map Construction"
 date: 2025-03-01 00:01:00 +0800
-selected: true
+selected: false
 pub: arXiv preprint
 pub_date: "2025"
 authors:

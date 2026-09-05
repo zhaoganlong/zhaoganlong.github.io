@@ -2,7 +2,7 @@
 title: "ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining"
 date: 2026-06-01 00:03:00 +0800
 selected: true
-pub: arXiv preprint
+pub: Conference on Robot Learning (CoRL)
 pub_date: "2026"
 authors:
   - Hao Li*

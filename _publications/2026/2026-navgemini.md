@@ -1,7 +1,7 @@
 ---
 title: "NavGemini: A Multi-Modal LLM Agent for Vision-and-Language Navigation"
 date: 2026-07-01 00:01:00 +0800
-selected: true
+selected: false
 pub: Visual Intelligence
 pub_date: "2026"
 authors:

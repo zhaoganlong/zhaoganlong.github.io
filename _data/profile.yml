@@ -4,6 +4,8 @@ navbar_name: "Ganlong Zhao"
 
 positions:
   - name: Postdoctoral Researcher
+  - name: Multimedia Lab, The Chinese University of Hong Kong
+  - name: Postdoctoral Researcher
   - name: Centre for Perceptual and Interactive Intelligence (CPII)
 
 email: "zhaoganlong6@gmail.com"
@@ -14,15 +16,21 @@ github: zhaoganlong
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a Postdoctoral Researcher at the
-    <a href="https://www.cpii.hk/" target="_blank" rel="noopener">Centre for Perceptual and Interactive Intelligence (CPII)</a>
-    in Hong Kong. I received my Ph.D. in Computer Science from
+    I am a Postdoctoral Researcher with the
+    <a href="https://mmlab.ie.cuhk.edu.hk/" target="_blank" rel="noopener">Multimedia Lab</a>
+    at The Chinese University of Hong Kong and the
+    <a href="https://www.cpii.hk/" target="_blank" rel="noopener">Centre for Perceptual and Interactive Intelligence (CPII)</a>,
+    working with Prof. Hongsheng Li at The Chinese University of Hong Kong. I received my Ph.D. in Computer Science from
     <a href="https://www.hku.hk/" target="_blank" rel="noopener">The University of Hong Kong</a>
-    in 2025, where I was supervised by Prof. Yizhou Yu (ACM &amp; IEEE Fellow).
+    in 2025, where I was supervised by Prof. Yizhou Yu (ACM &amp; IEEE Fellow) and Prof. Guanbin Li.
   </p>
   <p>
     My research focuses on embodied AI and visual intelligence, including robotic manipulation,
     vision-language navigation, vision-language-action models, and data-efficient learning.
+  </p>
+  <p>
+    I welcome opportunities for academic collaboration and professional engagement. Please feel free to reach out
+    if you would like to discuss potential collaborations or opportunities.
   </p>
 
 portrait_url: /assets/images/photos/avatar.png
@@ -32,40 +40,28 @@ education:
   - name: The University of Hong Kong
     logo: /assets/images/badges/hku.png
     dept: Department of Computer Science
-    position: "Ph.D. in Computer Science; Advisor: Prof. Yizhou Yu"
+    position: "Ph.D. in Computer Science; Advisors: Prof. Yizhou Yu and Prof. Guanbin Li"
     date: Sep. 2021 - Jul. 2025
   - name: Sun Yat-sen University
+    logo: /assets/images/badges/sysu.png
+    logo_crop: true
     position: "Master of Computer Engineering; Advisor: Prof. Guanbin Li"
     date: Sep. 2019 - Jun. 2021
   - name: Sun Yat-sen University
+    logo: /assets/images/badges/sysu.png
+    logo_crop: true
     position: B.Eng. in Computer Science and Technology
     date: Sep. 2015 - Jun. 2019
 
 experience:
+  - name: The Chinese University of Hong Kong
+    dept: Hong Kong
+    position: "Postdoctoral Researcher; Multimedia Lab; Supervisor: Prof. Hongsheng Li"
+    date: Nov. 2025 - present
   - name: Centre for Perceptual and Interactive Intelligence (CPII)
     dept: Hong Kong
     position: Postdoctoral Researcher
     date: Dec. 2025 - present
-  - name: ACE Robotics (Daxiao Robotics)
-    dept: Shanghai, China
-    position: Part-time Researcher
-    date: Dec. 2025 - present
-  - name: The Chinese University of Hong Kong
-    dept: Hong Kong
-    position: Research Associate
-    date: Nov. 2025 - Dec. 2025
-  - name: TengenX.AI (Shenzhen Tianyuanxing Technology Co., Ltd.)
-    dept: Shenzhen, China
-    position: Research Intern
-    date: Jul. 2025 - Nov. 2025
-  - name: Meituan Inc.
-    dept: Beijing, China
-    position: Research Intern
-    date: Sep. 2020 - Mar. 2021
-  - name: Tencent Inc.
-    dept: Shenzhen, China
-    position: Software Development Engineer Intern
-    date: Jul. 2018 - Aug. 2018
 
 academic_service:
   conferences:

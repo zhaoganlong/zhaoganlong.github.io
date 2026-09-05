@@ -11,7 +11,7 @@
                                 {% for item in site.data.profile.education %}
                                 <li class="media mb-1">
                                     {% if item.logo %}
-                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">
+                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;{% if item.logo_crop %} height: 18px; object-fit: cover; object-position: left;{% endif %}" class="mr-1 mt-1">
                                     {% else %}
                                     <span class="institution-mark mr-1 mt-1" aria-hidden="true"></span>
                                     {% endif %}
