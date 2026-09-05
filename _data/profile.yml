@@ -5,7 +5,6 @@ navbar_name: "Ganlong Zhao"
 positions:
   - name: Postdoctoral Researcher
   - name: Multimedia Lab, The Chinese University of Hong Kong
-  - name: Postdoctoral Researcher
   - name: Centre for Perceptual and Interactive Intelligence (CPII)
 
 email: "zhaoganlong6@gmail.com"
@@ -55,10 +54,12 @@ education:
 
 experience:
   - name: The Chinese University of Hong Kong
+    logo: /assets/images/badges/cuhk.png
     dept: Hong Kong
     position: "Postdoctoral Researcher; Multimedia Lab; Supervisor: Prof. Hongsheng Li"
     date: Nov. 2025 - present
   - name: Centre for Perceptual and Interactive Intelligence (CPII)
+    logo: /assets/images/badges/cpii.png
     dept: Hong Kong
     position: Postdoctoral Researcher
     date: Dec. 2025 - present
