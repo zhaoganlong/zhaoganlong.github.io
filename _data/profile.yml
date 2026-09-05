@@ -3,11 +3,10 @@ secondary_name: ""
 navbar_name: "Ganlong Zhao"
 
 positions:
-  - name: Ph.D. Student
-  - name: The University of Hong Kong
-    logo: /assets/images/badges/hku.png
+  - name: Postdoctoral Researcher
+  - name: Centre for Perceptual and Interactive Intelligence (CPII)
 
-email: "zhaogl@connect.hku.hk"
+email: "zhaoganlong6@gmail.com"
 cv_link: /assets/files/curriculum_vitae.pdf
 gscholar: 4l2zOz4AAAAJ
 github: zhaoganlong
@@ -15,15 +14,15 @@ github: zhaoganlong
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a fourth-year Ph.D. student in the Department of Computer Science at
-    <a href="https://www.hku.hk/" target="_blank" rel="noopener">The University of Hong Kong</a>,
-    supervised by Prof. Yizhou Yu (ACM &amp; IEEE Fellow).
+    I am a Postdoctoral Researcher at the
+    <a href="https://www.cpii.hk/" target="_blank" rel="noopener">Centre for Perceptual and Interactive Intelligence (CPII)</a>
+    in Hong Kong. I received my Ph.D. in Computer Science from
+    <a href="https://www.hku.hk/" target="_blank" rel="noopener">The University of Hong Kong</a>
+    in 2025, where I was supervised by Prof. Yizhou Yu (ACM &amp; IEEE Fellow).
   </p>
   <p>
-    Before that, I received both my B.Eng. and M.Eng. degrees from
-    <a href="https://www.sysu.edu.cn/sysuen/" target="_blank" rel="noopener">Sun Yat-sen University</a>,
-    where I was advised by Prof. Guanbin Li. My research interests include weakly supervised learning,
-    dataset condensation, and embodied AI.
+    My research focuses on embodied AI and visual intelligence, including robotic manipulation,
+    vision-language navigation, vision-language-action models, and data-efficient learning.
   </p>
 
 portrait_url: /assets/images/photos/avatar.png
@@ -33,9 +32,40 @@ education:
   - name: The University of Hong Kong
     logo: /assets/images/badges/hku.png
     dept: Department of Computer Science
-    position: Ph.D. Student
+    position: "Ph.D. in Computer Science; Advisor: Prof. Yizhou Yu"
+    date: Sep. 2021 - Jul. 2025
   - name: Sun Yat-sen University
-    position: B.Eng. and M.Eng.
+    position: "Master of Computer Engineering; Advisor: Prof. Guanbin Li"
+    date: Sep. 2019 - Jun. 2021
+  - name: Sun Yat-sen University
+    position: B.Eng. in Computer Science and Technology
+    date: Sep. 2015 - Jun. 2019
+
+experience:
+  - name: Centre for Perceptual and Interactive Intelligence (CPII)
+    dept: Hong Kong
+    position: Postdoctoral Researcher
+    date: Dec. 2025 - present
+  - name: ACE Robotics (Daxiao Robotics)
+    dept: Shanghai, China
+    position: Part-time Researcher
+    date: Dec. 2025 - present
+  - name: The Chinese University of Hong Kong
+    dept: Hong Kong
+    position: Research Associate
+    date: Nov. 2025 - Dec. 2025
+  - name: TengenX.AI (Shenzhen Tianyuanxing Technology Co., Ltd.)
+    dept: Shenzhen, China
+    position: Research Intern
+    date: Jul. 2025 - Nov. 2025
+  - name: Meituan Inc.
+    dept: Beijing, China
+    position: Research Intern
+    date: Sep. 2020 - Mar. 2021
+  - name: Tencent Inc.
+    dept: Shenzhen, China
+    position: Software Development Engineer Intern
+    date: Jul. 2018 - Aug. 2018
 
 academic_service:
   conferences:

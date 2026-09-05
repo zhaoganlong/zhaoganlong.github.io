@@ -1,5 +1,5 @@
 title: Ganlong Zhao
-description: Academic homepage of Ganlong Zhao, a Ph.D. student in Computer Science at The University of Hong Kong.
+description: Academic homepage of Ganlong Zhao, a postdoctoral researcher working on embodied AI and visual intelligence.
 url: "https://zhaoganlong.github.io"
 baseurl: ""
 repository: zhaoganlong/zhaoganlong.github.io
@@ -15,4 +15,4 @@ exclude:
   - Gemfile.lock
   - README.md
   - vendor
-
+  - curriculum_vitae.tex

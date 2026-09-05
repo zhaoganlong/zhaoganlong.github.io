@@ -1,0 +1,226 @@
+% Document class and font size
+\documentclass[a4paper,9pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{a4paper, margin=0.75in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{xcolor}
+\usepackage{hyperref} % For hyperlinks
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+\definecolor{linkblue}{HTML}{1A4F8B}
+\hypersetup{colorlinks=true, urlcolor=linkblue, linkcolor=linkblue}
+
+\newcommand{\me}{\textbf{Ganlong Zhao}}
+\newcommand{\publink}[2]{\href{#1}{[#2]}}
+\newcommand{\arxiventry}[4]{%
+    \item #1. #2. \textit{arXiv preprint arXiv:#3}, #4. \publink{https://arxiv.org/abs/#3}{arXiv}%
+}
+\newcommand{\pubentry}[3]{%
+    \item #1. #2. \textit{#3}.%
+}
+%%%%%%%%%%
+
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead{}
+\fancyhead[L]{\textit{Ganlong Zhao}}
+\fancyhead[R]{}
+\fancyfoot{}
+\thispagestyle{empty} % Remove header from the first page
+
+% Header
+\begin{flushleft}
+\textbf{\LARGE Ganlong Zhao}\\[2pt] % Name
+Postdoctoral Researcher, Centre for Perceptual and Interactive Intelligence (CPII), Hong Kong\\
+\href{mailto:zhaoganlong6@gmail.com}{zhaoganlong6@gmail.com} | \href{https://scholar.google.com/citations?hl=zh-CN&user=4l2zOz4AAAAJ}{Google Scholar}
+
+% Mailing Address: Room 702, Building C, Eastern Real Estate Commercial Plaza, Qingwan Road, Shiwan Town, Boluo County, Huizhou, Guangdong Province, 516127, China
+\end{flushleft}
+
+% Education Section
+\section*{RESEARCH INTERESTS}
+\noindent
+My research focuses on Embodied AI and Visual Intelligence, including robotic manipulation, vision-language navigation, vision-language-action models, and data-efficient learning.
+% Currently, I am working on aerial Vision-and-Language Navigation, which aims to develop intelligent agents that follow human instructions to navigate aerial environments.
+
+% Education Section
+\section*{EDUCATION}
+\noindent
+\textbf{The University of Hong Kong}, Hong Kong \hfill Sept. 2021 | July 2025 \\ % University name and location
+PhD in Computer Science, Advisor: Prof. Yizhou Yu (ACM \& IEEE Fellow) \\
+Thesis: Towards Intelligent Vision-and-Language Navigation: From Structured Memorization to Aerial Exploration
+
+\noindent\\
+\textbf{Sun Yat-sen University}, Guangzhou, Guangdong, China \hfill Sept. 2019 | June 2021\\ % University name and location
+Master of Computer Engineering, Advisor: Prof. Guanbin Li %\hfill Cumulative GPA: X.XX/4.00 \\ % Degree and GPA
+
+\noindent
+Thesis: The Study of Domain Adaptation for Image Classification and Object Detection% Additional info
+
+\noindent\\
+\textbf{Sun Yat-sen University}, Guangzhou, Guangdong, China \hfill Sept. 2015 | June 2019\\ % University name and location
+Bachelor of Engineering: Computer Science and Technology \hfill Cumulative GPA: 4.1/5.0, Rank 1 of 92 \\ % Degree and GPA
+% Additional info
+
+% Experience Section
+\section*{EXPERIENCE}
+
+\noindent
+\textbf{Centre for Perceptual and Interactive Intelligence (CPII)} \hfill Hong Kong\\
+\textit{Postdoctoral Researcher} \hfill Dec. 2025 | Present
+\begin{itemize}
+    \item Research on visual intelligence and embodied AI.
+\end{itemize}
+
+\noindent
+\textbf{ACE Robotics (Daxiao Robotics)} \hfill Shanghai, China\\
+\textit{Part-time Researcher} \hfill Dec. 2025 | Present
+\begin{itemize}
+    \item Research on embodied world models and robotic foundation models.
+\end{itemize}
+
+\noindent
+\textbf{The Chinese University of Hong Kong} \hfill Hong Kong\\
+\textit{Research Associate} \hfill Nov. 2025 | Dec. 2025
+\begin{itemize}
+    \item Research on visual intelligence and embodied AI.
+\end{itemize}
+
+\noindent
+\textbf{TengenX.AI (Shenzhen Tianyuanxing Technology Co., Ltd.)} \hfill Shenzhen, China\\
+\textit{Research Intern} \hfill July 2025 | Nov. 2025
+\begin{itemize}
+    \item Research on embodied AI and robotic manipulation for industrial robotics.
+\end{itemize}
+
+\noindent
+\textbf{Meituan Inc.} \hfill Beijing, China\\ % Company name and location
+\textit{Research Intern} \hfill Sept. 2020 | March 2021 % Position and duration
+\begin{itemize}
+    \item Research on Open-Set Semi-supervised Learning.
+\end{itemize}
+
+\noindent
+\textbf{Tencent Inc.} \hfill Shenzhen, Guangdong, China\\ % Company name and location
+\textit{Intern} \hfill July 2018 | Aug. 2018 % Position and duration
+\begin{itemize}
+    \item Software Development Engineer.
+\end{itemize}
+
+% % Projects Section
+% \section*{PROJECTS}
+% \noindent
+% \textbf{\# Project Name} \hfill \#City, \#Country\\ % Project name and location
+% \textit{\# Your Position}
+%    \hfill \#Month \#Year | \#Month \#Year % Project link and duration
+
+% \begin{itemize}
+%      \item \# Description of your job duty and responsibilities.
+%     \item \# Description of your job duty and responsibilities.
+%     \item \# Description of your job duty and responsibilities.
+% \end{itemize}
+
+\section*{PUBLICATIONS}
+% \textup{\# You can use some options here such as: In-Progress, Submitted, reviewed, Published}% Project name and location
+
+\noindent
+\textbf{Preprints} \hfill \textit{$^*$ Equal contribution; $^\dagger$ Project lead}
+\begin{itemize}[leftmargin=*, itemsep=1mm]
+    \arxiventry{\me, Guanbin Li, Jia Pan, and Yizhou Yu}
+        {Aerial Vision-and-Language Navigation with Grid-based View Selection and Map Construction}
+        {2503.11091}
+        {2025}
+    \arxiventry{Yixia Li, Hongru Wang, Peng Lai, Zhiwen Ruan, He Zhu, Youxin Zhu, \me, Minda Hu, Yun Chen, Sibei Yang, Peng Li, Jeff Z. Pan, Jia Pan, Guanhua Chen, Yang Liu, and Guanbin Li}
+        {Bridging the Agent-World Gap: Text World Models for LLM-based Agents}
+        {2606.09032}
+        {2026}
+    \arxiventry{Tongyan Fang, Siyuan Huang, Naiyu Fang, \me, Zhongjin Luo, Jianbo Liu, Xiaogang Wang, Ying Dong, and Hongsheng Li}
+        {Hierarchical Advantage Weighting for Online RL Fine-Tuning of VLAs from Sparse Episode Outcomes}
+        {2606.17043}
+        {2026}
+    \arxiventry{Hao Li$^*$, \me$^{*,\dagger}$, Yufei Liu$^*$, Haotian Hou$^*$, Guoquan Ye, Tongyan Fang, Chunxiao Liu, Siyuan Huang$^\dagger$, Jianbo Liu, Xiaogang Wang, and Hongsheng Li}
+        {ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining}
+        {2606.17200}
+        {2026}
+\end{itemize}
+
+\noindent
+\textbf{Published}
+\begin{itemize}[leftmargin=*, itemsep=1mm]
+    \pubentry{\me, Zijia Tang, Xingping Chen, Zhanghui Kuang, Ye Tian, and Guanbin Li}
+        {FLARE: A Failure-Aware Framework for Autonomous Correction and Recovery in Visual-Language Robotic Manipulation}
+        {CVPR, 2026 (top CV conf.; CCF-A)}
+    \pubentry{Yuwei Ning$^*$, \me$^*$, Yipeng Qin, Si Liu, Yang Liu, Liang Lin, and Guanbin Li}
+        {LookasideVLN: Direction-Aware Aerial Vision-and-Language Navigation}
+        {CVPR, 2026 (top CV conf.; CCF-A)}
+    \pubentry{\me, Guanbin Li, and Yizhou Yu}
+        {NavGemini: A Multi-Modal LLM Agent for Vision-and-Language Navigation}
+        {Visual Intelligence, 2026}
+    \pubentry{Jiahao Chen, Yipeng Qin, \me, Xin Li, Wenping Wang, and Guanbin Li}
+        {3DGS-HPC: Distractor-Free 3D Gaussian Splatting with Hybrid Patch-Wise Classification}
+        {ICML, 2026 (top ML conf.; CCF-A)}
+    \pubentry{\me, Guanbin Li, Weikai Chen, and Yizhou Yu}
+        {OVER-NAV: Elevating Iterative Vision-and-Language Navigation with Open-Vocabulary Detection and Structured Representation}
+        {CVPR, 2024 (top CV conf.; CCF-A)}
+    \pubentry{\me, Guanbin Li, Yipeng Qin, Jinjin Zhang, Zhenhua Chai, Xiaolin Wei, Liang Lin, and Yizhou Yu}
+        {Exploration and Exploitation of Unlabeled Data for Open-Set Semi-Supervised Learning}
+        {International Journal of Computer Vision, 2024 (top CV journal; CCF-A)}
+    \pubentry{Yulong Jia, Jiaming Li, \me, Shuangyin Liu, Weijun Sun, Liang Lin, and Guanbin Li}
+        {Enhancing Out-of-Distribution Detection via Diversified Multi-Prototype Contrastive Learning}
+        {Pattern Recognition, 2024 (JCR Q1 journal)}
+    \pubentry{Yulong Jia, Guanxing Li, \me, Xiangru Lin, and Guanbin Li}
+        {GraphVAE: Unveiling Dynamic Stock Relationships with Variational Autoencoder-Based Factor Modeling}
+        {CIKM, 2024 (CCF-B venue; short paper)}
+    \pubentry{\me, Guanbin Li, Yipeng Qin, and Yizhou Yu}
+        {Improved Distribution Matching for Dataset Condensation}
+        {CVPR, 2023 (top CV conf.; CCF-A)}
+    \pubentry{\me, Guanbin Li, Yipeng Qin, Feng Liu, and Yizhou Yu}
+        {Centrality and Consistency: Two-Stage Clean Samples Identification for Learning with Instance-Dependent Noisy Labels}
+        {ECCV, 2022 (top CV conf.; CCF-B)}
+    \pubentry{\me, Guanbin Li, Ruijia Xu, and Liang Lin}
+        {Collaborative Training Between Region Proposal Localization and Classification for Domain Adaptive Object Detection}
+        {ECCV, 2020 (top CV conf.; CCF-B)}
+\end{itemize}
+
+\section*{PATENTS}
+\begin{itemize}[leftmargin=*, itemsep=1mm]
+    \item \me, Zihao Mo, Xingping Chen, and Zhanghui Kuang. \textit{Failure-Aware Autonomous Correction and Recovery Method, Apparatus, Device, and Medium for VLA}. Chinese Invention Patent, ZL 2026 1 0785627.5 / CN 122334338 B, granted Aug. 18, 2026.
+    \item Guanbin Li and \me. \textit{A Collaborative Training Method Based on Domain Adaptation}. Chinese Invention Patent, CN 112016594 B, granted Jun. 9, 2023.
+    \item Guanbin Li, \me, Jinjin Zhang, Zhenhua Chai, and Xiaolin Wei. \textit{Sample Processing Method, Device, Electronic Equipment, and Storage Medium}. Chinese Patent Application, CN 114492602 A, published May 13, 2022.
+\end{itemize}
+
+% \noindent
+% \textbf{\# Here you can also add your other publication such as: Translation, book and so on ...}
+% \begin{itemize}
+%     \item O'Connor, J., Lages, A. (2019). Coaching the brain: Practical applications of neuroscience to coaching. Routledge.
+% \end{itemize}
+
+% \section*{TEACHING}
+
+% \begin{itemize}
+%     \item \textbf{Teaching Assistant}: CCST9049: From Human Vision to Machine Vision, HKU (Undergraduate)
+%     \item \textbf{Teaching Assistant}: COMP8503: Advanced Topics in Visual Analytics, HKU (Postgraduate)
+%     \item \textbf{Teaching Assistant}: COMP3314C: Machine Learning, HKU (Undergraduate)
+% \end{itemize}
+
+\section*{LANGUAGE}
+
+Mandarin, Cantonese, English.
+CET-4 581, CET-6 560, IELTS 7.0.
+
+
+% End document
+\end{document}

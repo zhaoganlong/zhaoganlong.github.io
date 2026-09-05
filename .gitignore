@@ -6,5 +6,12 @@ _site/
 .bundle/
 vendor/
 Gemfile.lock
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+curriculum_vitae.pdf
 
 .DS_Store
