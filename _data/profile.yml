@@ -66,6 +66,8 @@ experience:
 
 academic_service:
   conferences:
+    - name: IEEE International Conference on Robotics and Automation (ICRA)
+      url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
     - name: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
       url: https://cvpr.thecvf.com/
     - name: IEEE/CVF International Conference on Computer Vision (ICCV)
